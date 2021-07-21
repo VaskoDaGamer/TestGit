@@ -39,7 +39,7 @@ namespace TestGit
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 44);
             this.button1.TabIndex = 0;
-            this.button1.Text = "btnClick";
+            this.button1.Text = "Diff";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
