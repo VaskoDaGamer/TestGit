@@ -46,7 +46,7 @@ namespace TestGit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1252, 696);
+            this.ClientSize = new System.Drawing.Size(1581, 858);
             this.Controls.Add(this.btnClickMe);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
