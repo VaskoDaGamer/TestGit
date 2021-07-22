@@ -37,7 +37,7 @@ namespace TestGit
 
             input = Math.Pow(input, 2);
 
-            lblAnswer.Text = input.ToString()l
+            lblAnswer.Text = input.ToString();
         }
     }
 }
