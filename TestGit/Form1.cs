@@ -16,10 +16,5 @@ namespace TestGit
         {
             InitializeComponent();
         }
-
-        private void btnClickMe_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Yay clicked");
-        }
     }
 }

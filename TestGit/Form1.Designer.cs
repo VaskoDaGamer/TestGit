@@ -41,7 +41,6 @@ namespace TestGit
             this.btnClickMe.TabIndex = 0;
             this.btnClickMe.Text = "Click Me";
             this.btnClickMe.UseVisualStyleBackColor = true;
-            this.btnClickMe.Click += new System.EventHandler(this.btnClickMe_Click);
             // 
             // button1
             // 
