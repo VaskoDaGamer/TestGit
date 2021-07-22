@@ -29,7 +29,11 @@ namespace TestGit
 
         private void btnPower_Click(object sender, EventArgs e)
         {
+            double input = Convert.ToDouble(txtInput);
 
+            input = Math.Pow(input, 2);
+
+            lblAnswer.Text = input.ToString()l
         }
     }
 }
