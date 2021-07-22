@@ -30,26 +30,36 @@ namespace TestGit
         private void InitializeComponent()
         {
             this.btnClickMe = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClickMe
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(700, 252);
-            this.btnClickMe.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnClickMe.Location = new System.Drawing.Point(350, 131);
             this.btnClickMe.Name = "btnClickMe";
-            this.btnClickMe.Size = new System.Drawing.Size(150, 44);
+            this.btnClickMe.Size = new System.Drawing.Size(75, 23);
             this.btnClickMe.TabIndex = 0;
             this.btnClickMe.Text = "Click Me";
             this.btnClickMe.UseVisualStyleBackColor = true;
             this.btnClickMe.Click += new System.EventHandler(this.btnClickMe_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(179, 283);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1550, 891);
+            this.ClientSize = new System.Drawing.Size(775, 463);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnClickMe);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -59,6 +69,7 @@ namespace TestGit
         #endregion
 
         private System.Windows.Forms.Button btnClickMe;
+        private System.Windows.Forms.Button button1;
     }
 }
 
