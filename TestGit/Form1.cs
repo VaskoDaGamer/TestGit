@@ -24,7 +24,7 @@ namespace TestGit
 
         private void btnSqrt_Click(object sender, EventArgs e)
         {
-            double input = Convert.ToDouble(txtInput.Text());
+            double input = Convert.ToDouble(txtInput.Text);
 
             input = Math.Sqrt(input);
 
@@ -33,7 +33,7 @@ namespace TestGit
 
         private void btnPower_Click(object sender, EventArgs e)
         {
-            double input = Convert.ToDouble(txtInput);
+            double input = Convert.ToDouble(txtInput.Text);
 
             input = Math.Pow(input, 2);
 

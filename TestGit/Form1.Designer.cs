@@ -37,9 +37,10 @@ namespace TestGit
             // 
             // btnSqrt
             // 
-            this.btnSqrt.Location = new System.Drawing.Point(152, 546);
+            this.btnSqrt.Location = new System.Drawing.Point(76, 284);
+            this.btnSqrt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSqrt.Name = "btnSqrt";
-            this.btnSqrt.Size = new System.Drawing.Size(154, 61);
+            this.btnSqrt.Size = new System.Drawing.Size(93, 52);
             this.btnSqrt.TabIndex = 1;
             this.btnSqrt.Text = "Compute Square root";
             this.btnSqrt.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@ namespace TestGit
             // 
             // btnPower
             // 
-            this.btnPower.Location = new System.Drawing.Point(371, 546);
+            this.btnPower.Location = new System.Drawing.Point(186, 284);
+            this.btnPower.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPower.Name = "btnPower";
-            this.btnPower.Size = new System.Drawing.Size(154, 61);
+            this.btnPower.Size = new System.Drawing.Size(117, 52);
             this.btnPower.TabIndex = 2;
             this.btnPower.Text = "Compute Power";
             this.btnPower.UseVisualStyleBackColor = true;
@@ -58,29 +60,30 @@ namespace TestGit
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Location = new System.Drawing.Point(163, 694);
+            this.lblAnswer.Location = new System.Drawing.Point(82, 361);
+            this.lblAnswer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(105, 25);
+            this.lblAnswer.Size = new System.Drawing.Size(52, 13);
             this.lblAnswer.TabIndex = 3;
             this.lblAnswer.Text = "lblAnswer";
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(168, 282);
+            this.txtInput.Location = new System.Drawing.Point(84, 147);
+            this.txtInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(285, 31);
+            this.txtInput.Size = new System.Drawing.Size(144, 20);
             this.txtInput.TabIndex = 4;
             // 
             // frmGitTest
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1550, 890);
+            this.ClientSize = new System.Drawing.Size(775, 463);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.lblAnswer);
             this.Controls.Add(this.btnPower);
             this.Controls.Add(this.btnSqrt);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "frmGitTest";
             this.Text = "Git Test";
             this.Load += new System.EventHandler(this.Form1_Load);
