@@ -34,19 +34,21 @@ namespace TestGit
             // 
             // btnClickMe
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(350, 131);
+            this.btnClickMe.Location = new System.Drawing.Point(700, 252);
+            this.btnClickMe.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnClickMe.Name = "btnClickMe";
-            this.btnClickMe.Size = new System.Drawing.Size(75, 23);
+            this.btnClickMe.Size = new System.Drawing.Size(150, 44);
             this.btnClickMe.TabIndex = 0;
             this.btnClickMe.Text = "Click Me";
             this.btnClickMe.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1006, 606);
+            this.ClientSize = new System.Drawing.Size(1550, 891);
             this.Controls.Add(this.btnClickMe);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
