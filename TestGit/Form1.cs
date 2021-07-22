@@ -24,7 +24,11 @@ namespace TestGit
 
         private void btnSqrt_Click(object sender, EventArgs e)
         {
+            double input = Convert.ToDouble(txtInput.Text());
 
+            input = Math.Sqrt(input);
+
+            lblAnswer.Text = input.ToString();
         }
 
         private void btnPower_Click(object sender, EventArgs e)
