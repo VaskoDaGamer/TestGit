@@ -1,7 +1,7 @@
 ﻿
 namespace TestGit
 {
-    partial class Form1
+    partial class frmGitTest
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,71 @@ namespace TestGit
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClickMe = new System.Windows.Forms.Button();
+            this.btnSqrt = new System.Windows.Forms.Button();
+            this.btnPower = new System.Windows.Forms.Button();
+            this.lblAnswer = new System.Windows.Forms.Label();
+            this.txtInput = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btnClickMe
+            // btnSqrt
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(700, 252);
-            this.btnClickMe.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btnClickMe.Name = "btnClickMe";
-            this.btnClickMe.Size = new System.Drawing.Size(150, 44);
-            this.btnClickMe.TabIndex = 0;
-            this.btnClickMe.Text = "Click Me";
-            this.btnClickMe.UseVisualStyleBackColor = true;
-            this.btnClickMe.Click += new System.EventHandler(this.btnClickMe_Click);
+            this.btnSqrt.Location = new System.Drawing.Point(152, 546);
+            this.btnSqrt.Name = "btnSqrt";
+            this.btnSqrt.Size = new System.Drawing.Size(154, 61);
+            this.btnSqrt.TabIndex = 1;
+            this.btnSqrt.Text = "Compute Square root";
+            this.btnSqrt.UseVisualStyleBackColor = true;
+            this.btnSqrt.Click += new System.EventHandler(this.btnSqrt_Click);
             // 
-            // Form1
+            // btnPower
+            // 
+            this.btnPower.Location = new System.Drawing.Point(371, 546);
+            this.btnPower.Name = "btnPower";
+            this.btnPower.Size = new System.Drawing.Size(154, 61);
+            this.btnPower.TabIndex = 2;
+            this.btnPower.Text = "Compute Power";
+            this.btnPower.UseVisualStyleBackColor = true;
+            this.btnPower.Click += new System.EventHandler(this.btnPower_Click);
+            // 
+            // lblAnswer
+            // 
+            this.lblAnswer.AutoSize = true;
+            this.lblAnswer.Location = new System.Drawing.Point(163, 694);
+            this.lblAnswer.Name = "lblAnswer";
+            this.lblAnswer.Size = new System.Drawing.Size(105, 25);
+            this.lblAnswer.TabIndex = 3;
+            this.lblAnswer.Text = "lblAnswer";
+            // 
+            // txtInput
+            // 
+            this.txtInput.Location = new System.Drawing.Point(168, 282);
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(285, 31);
+            this.txtInput.TabIndex = 4;
+            // 
+            // frmGitTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1550, 890);
-            this.Controls.Add(this.btnClickMe);
+            this.Controls.Add(this.txtInput);
+            this.Controls.Add(this.lblAnswer);
+            this.Controls.Add(this.btnPower);
+            this.Controls.Add(this.btnSqrt);
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmGitTest";
+            this.Text = "Git Test";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnClickMe;
+        private System.Windows.Forms.Button btnSqrt;
+        private System.Windows.Forms.Button btnPower;
+        private System.Windows.Forms.Label lblAnswer;
+        private System.Windows.Forms.TextBox txtInput;
     }
 }
 

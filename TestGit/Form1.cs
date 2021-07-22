@@ -10,16 +10,26 @@ using System.Windows.Forms;
 
 namespace TestGit
 {
-    public partial class Form1 : Form
+    public partial class frmGitTest : Form
     {
-        public Form1()
+        public frmGitTest()
         {
             InitializeComponent();
         }
 
-        private void btnClickMe_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Yay clicked");
+            lblAnswer.Text = "";
+        }
+
+        private void btnSqrt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPower_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
